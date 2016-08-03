@@ -1,0 +1,17 @@
+name: "rafaeljsouza.github.io"
+output_dir: "."
+output:
+  html_document:
+    theme: flatly
+navbar:
+  title: "Rafael's Site"
+  left:
+    - text: "Home"
+      href: index.html
+
+
+
+
+
+
+
