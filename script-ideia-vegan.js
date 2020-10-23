@@ -12,6 +12,7 @@ function escolhe(){
     let leguminosa = leguminosas[Math.floor(Math.random()* leguminosas.length)];
     let legume = legumes[Math.floor(Math.random()* legumes.length)];
     let verdura = verduras[Math.floor(Math.random()* verduras.length)];
-    return "A parte dos cereais e tuberculos pode ser: " + cereal + " e " + tuberculo+ ". De leguminosas pode ser: " + leguminosa +
-    ". As verduras e legumes podem ser " + verdura +" e " +legume+".";
+    let frase = "A parte dos cereais e tuberculos pode ser: " + cereal + " e " + tuberculo+ ". \n De leguminosas pode ser: " + leguminosa +
+    ".\n As verduras e legumes podem ser " + verdura +" e " +legume+".";
+    return frase;
 }
